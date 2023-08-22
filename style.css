@@ -1,0 +1,131 @@
+body{
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline;
+}
+
+.cap{
+    width: 150px;
+    height: 85px;
+}
+/* HEADER */
+.header > *{
+    display: inline-block;
+    font-size: 25px;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 45px;
+}
+
+.navbar{
+    width: 69%;
+    text-align: center;
+    background: wheat;
+}
+
+.navbar > ul > li > a{
+    text-decoration: none;
+    color: #025150;
+    font-weight: 850;
+}
+
+.logo{
+    width: 15%;
+    background: blue;
+}
+
+.actions{
+    width: 15%;
+    vertical-align: middle;
+    text-align: right;
+    background: red;
+}
+
+.actions a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.actions button{
+    width: 100px;
+    height: 35px;
+    color: chartreuse;
+    font-weight: 400;
+    background-color: #025150;
+    text-decoration: underline overline;
+}
+
+/* MAIN SECTION */
+main{
+    text-align: center;
+    margin: 50px;
+    padding: 10px;
+}
+
+main h1{
+    color: darkslategrey;
+}
+
+main p{
+    color: rebeccapurple;
+}
+
+main button{
+    color:azure;
+    background-color: darkslategray;
+}
+
+main input{
+    background-color: bisque;
+    color: grey;
+}
+
+/* PUBLISH SECTION */
+
+.pub{
+    width: 100%;
+    height: 500px;
+    background: #025150;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pub div{
+    width: 25%;
+    padding: 10px;
+    background: aqua;
+}
+
+.pub article video{
+    width: 90%;
+    padding: 10px;
+    background-color: blueviolet;
+}
+
+/* FEATURES SECTION */
+
+.features{
+    display: grid;
+    /* grid-template-columns: 300px 300px 300px; */
+    /* repeat(cantidad, tamaño) */
+    /* grid-template-columns: repeat(2, 250px); */
+
+    /* grid-template-columns: 1500px 1fr;
+    grid-template-rows: 210px 210px; */
+
+    grid-template: repeat(2, 1fr) / repeat(2, 330px);
+}
+
+.features article{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    font-size: 50px;
+    background-color: violet;
+}

@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    /* flex-direction: column-reverse; column, row, row-reverse*/
+    /* flex-wrap: wrap; no-wrap;wrap-reverse*/
+    /* justify-content: center; space-around; space-between HORIZONTAL*/
+    /* align-items: center; VERTICAL*/
+
+    /* El justify y align items van directamente con row o column
+    , por ejemplo: si el flex direction está en column, justify lo alineara en vertical,
+    si está en row, entonces lo va a alinear en horizontal*/
+    
+    background: coral;
+    height: 500px;
+    margin-top: 200px;
+    margin-bottom: 200pz;
+}
+
+.container div{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    font-size: 50px;
+    background-color: brown;
+    color: blanchedalmond;
+}
