@@ -23,23 +23,23 @@ li{
 }
 
 .navbar{
-    width: 69%;
+    width: 100%;
     text-align: center;
+    color: #025150;
+    font-size: 20px;
+    font-weight: 500;
     /* background: wheat; */
 }
 
 .navbar > ul > li > a{
     text-decoration: none;
-    color: #025150;
+    /* color: #025150;
     font-size: 20px;
-    font-weight: 500;
-    margin: 20px 30px;
+    font-weight: 500; 
+    margin: 20px 30px; */
 }
 
-.logo{
-    width: 15%;
-    /* background: blue; */
-}
+
 
 .actions{
     width: 15%;
@@ -51,12 +51,12 @@ li{
 .actions a{
     text-decoration: none;
     color: #67b54b;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
 }
 
 .actions button{
-    width: 100px;
+    width: 130px;
     height: 55px;
 
     color: white;
@@ -66,6 +66,7 @@ li{
     border-radius: 5px;
 
     font-weight: 500;
+    font-size: 15px;
 }
 
 /* MAIN SECTION */
@@ -215,6 +216,68 @@ main input{
     font-size: 20px;
     font-weight: 40px;
     text-decoration: none;
+}
+
+/* STORIES */
+.success-stories {
+    background-color: #a1d683;
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.success-stories .overview {
+    flex: 2;
+    padding-right: 100px;
+}
+
+.success-stories .overview h2 {
+    font-family: "Alegreya", serif;
+    font-size: 51px;
+    line-height: 61px;
+    color: #025157;
+}
+
+.success-stories .overview p {
+    color: #343434;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.success-stories .overview button {
+    font-size: 14px;
+    padding: 12px 12px 6px 12px;
+    border-radius: 8px;
+    height: 45px;
+    font-weight: 600;
+    margin-left: 0;
+}
+
+.success-stories .overview img {
+    width: 500px;
+    max-width: 100%;
+}
+
+.success-stories .stories-carousel{
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.success-stories .carousel-item{
+    width: 200px;
+    height: 300px;
+    background-color: #fffbf7;
+}
+
+.success-stories .carousel-item h5{
+    color: #025157;
+}
+
+.success-stories .carousel-item p{
+    color: #343434;
 }
 
 /* MEDIA QUERY*/
