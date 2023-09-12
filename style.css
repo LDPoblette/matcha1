@@ -1,8 +1,9 @@
-body{
-    background-color: #fffbf7;
+.body{
+    background-color: #fffbf7 !important;
     margin: 0;
     padding: 0;
 }
+
 .cap{
     width: 150px;
     height: 85px;
@@ -97,7 +98,7 @@ main button{
     text-align: center;
     background-color: darkslategray;
     height: 45px;
-    margin-left: 0;
+    margin: 0;
 }
 
 main input{
@@ -106,7 +107,7 @@ main input{
     font-size: 15px;
     border-radius: 3px;
     height: 45px;
-    margin-right: 0;
+    margin: 0;
 }
 
 /* PUBLISH SECTION */

@@ -1,0 +1,16 @@
+@use 'global' as *;
+
+.global{
+    background: $light-green;
+}
+
+.title{
+    %base-title{
+        width: 100%;
+    }
+}
+
+.parrafo{
+    @extend %base-title;
+    height: 100px;
+}
